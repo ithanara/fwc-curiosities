@@ -1,15 +1,3 @@
-"""
-Extrai as tabelas de elenco (squads) da página da Wikipedia:
-https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads
-
-Para cada seleção, cria linhas no formato:
-    Selecao | No. | Pos. | Player | Date of birth (age) | Caps | Goals | Club
-
-Dependências:
-    pip install requests beautifulsoup4 pandas lxml html5lib
-    (html5lib é opcional, mas ajuda como parser de fallback)
-"""
-
 import re
 
 import requests
