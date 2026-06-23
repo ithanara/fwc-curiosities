@@ -132,7 +132,7 @@ Bosnia and Herzegovina,26.0,MF,Ermin Mahmić,"March 14, 2005 (aged 21)",2.0,0.0,
 Canada,1.0,GK,Dayne St. Clair,"May 9, 1997 (aged 29)",20.0,0.0,Inter Miami CF,,,,,,,,,,,,,False
 Canada,2.0,DF,Alistair Johnston,"October 8, 1998 (aged 27)",58.0,1.0,Celtic,,,,,,,,,,,,,False
 Canada,3.0,DF,Alfie Jones,"October 7, 1997 (aged 28)",2.0,0.0,Middlesbrough,,,,,,,,,,,,,False
-Canada,4.0,DF,Luc de Fougerolles,"October 12, 2005 (aged 20)",13.0,0.0,Dender,,,,,,,,,,,,,False
+Canada,4.0,DF,Luc de Fougerolles,"October 12, 2005 (aged 20)",13.0,0.0,Dender EH,,,,,,,,,,,,,False
 Canada,5.0,DF,Joel Waterman,"January 24, 1996 (aged 30)",17.0,0.0,Chicago Fire FC,,,,,,,,,,,,,False
 Canada,6.0,MF,Mathieu Choinière,"February 7, 1999 (aged 27)",23.0,0.0,Los Angeles FC,,,,,,,,,,,,,False
 Canada,7.0,MF,Stephen Eustáquio,"December 21, 1996 (aged 29)",56.0,4.0,Los Angeles FC,,,,,,,,,,,,,False
@@ -681,7 +681,7 @@ Iran,3.0,DF,Ehsan Hajsafi,"February 25, 1990 (aged 36)",146.0,7.0,Sepahan,,,,,,,
 Iran,4.0,DF,Shojae Khalilzadeh,"May 14, 1989 (aged 37)",58.0,2.0,Tractor,,,,,,,,,,,,,False
 Iran,5.0,DF,Milad Mohammadi,"September 29, 1993 (aged 32)",76.0,1.0,Persepolis,,,,,,,,,,,,,False
 Iran,6.0,MF,Saeid Ezatolahi,"October 1, 1996 (aged 29)",83.0,2.0,Shabab Al Ahli,,,,,,,,,,,,,False
-Iran,7.0,MF,Alireza Jahanbakhsh,"August 11, 1993 (aged 32)",98.0,17.0,Dender,,,,,,,,,,,,,False
+Iran,7.0,MF,Alireza Jahanbakhsh,"August 11, 1993 (aged 32)",98.0,17.0,Dender EH,,,,,,,,,,,,,False
 Iran,8.0,MF,Mohammad Mohebi,"December 20, 1998 (aged 27)",37.0,14.0,Rostov,,,,,,,,,,,,,False
 Iran,9.0,FW,Mehdi Taremi,"July 18, 1992 (aged 33)",105.0,60.0,Olympiacos,,,,,,,,,,,,,False
 Iran,10.0,FW,Mehdi Ghayedi,"December 5, 1998 (aged 27)",30.0,10.0,Al Nasr,,,,,,,,,,,,,False
@@ -746,7 +746,7 @@ Cape Verde,16.0,MF,Yannick Semedo,"December 29, 1995 (aged 30)",11.0,1.0,Farense
 Cape Verde,17.0,MF,Willy Semedo,"April 27, 1994 (aged 32)",38.0,3.0,Omonia,,,,,,,,,,,,,False
 Cape Verde,18.0,MF,Telmo Arcanjo,"June 21, 2001 (aged 24)",16.0,1.0,Vitória de Guimarães,,,,,,,,,,,,,False
 Cape Verde,19.0,FW,Dailon Livramento,"May 4, 2001 (aged 25)",22.0,7.0,Casa Pia,,,,,,,,,,,,,False
-Cape Verde,20.0,FW,Ryan Mendes,"January 8, 1990 (aged 36)",98.0,22.0,Iğdır,,,,,,,,,,,,,True
+Cape Verde,20.0,FW,Ryan Mendes,"January 8, 1990 (aged 36)",97.0,22.0,Iğdır,,,,,,,,,,,,,True
 Cape Verde,21.0,MF,Nuno da Costa,"February 10, 1991 (aged 35)",9.0,2.0,İstanbul Başakşehir,,,,,,,,,,,,,False
 Cape Verde,22.0,DF,Steven Moreira,"August 13, 1994 (aged 31)",20.0,0.0,Columbus Crew,,,,,,,,,,,,,False
 Cape Verde,23.0,GK,CJ dos Santos,"August 24, 2000 (aged 25)",1.0,0.0,San Diego FC,,,,,,,,,,,,,False
@@ -862,7 +862,7 @@ Iraq,2.0,DF,Rebin Sulaka,"April 12, 1992 (aged 34)",56.0,1.0,Port,,,,,,,,,,,,,Fa
 Iraq,3.0,DF,Hussein Ali,"March 1, 2002 (aged 24)",27.0,1.0,Pogoń Szczecin,,,,,,,,,,,,,False
 Iraq,4.0,DF,Zaid Tahseen,"January 29, 2001 (aged 25)",28.0,1.0,Pakhtakor,,,,,,,,,,,,,False
 Iraq,5.0,DF,Akam Hashim,"August 16, 1998 (aged 27)",14.0,1.0,Al-Zawraa,,,,,,,,,,,,,False
-Iraq,6.0,DF,Munaf Younis,"November 16, 1996 (aged 29)",34.0,1.0,Al-Shorta,,,,,,,,,,,,,False
+Iraq,6.0,DF,Manaf Younis,"November 16, 1996 (aged 29)",34.0,1.0,Al-Shorta,,,,,,,,,,,,,False
 Iraq,7.0,MF,Youssef Amyn,"August 21, 2003 (aged 22)",27.0,2.0,AEK Larnaca,,,,,,,,,,,,,False
 Iraq,8.0,MF,Ibrahim Bayesh,"May 1, 2000 (aged 26)",76.0,8.0,Al Dhafra,,,,,,,,,,,,,False
 Iraq,9.0,FW,Ali Al-Hamadi,"March 1, 2002 (aged 24)",20.0,5.0,Luton Town,,,,,,,,,,,,,False
@@ -935,32 +935,32 @@ Senegal,23.0,GK,Mory Diaw,"June 22, 1993 (aged 32)",5.0,0.0,Le Havre,,,,,,,,,,,,
 Senegal,24.0,DF,Antoine Mendy,"May 27, 2004 (aged 22)",7.0,0.0,Nice,,,,,,,,,,,,,False
 Senegal,25.0,DF,El Hadji Malick Diouf,"December 29, 2004 (aged 21)",20.0,1.0,West Ham United,,,,,,,,,,,,,False
 Senegal,26.0,MF,Pape Gueye,"January 24, 1999 (aged 27)",41.0,5.0,Villarreal,,,,,,,,,,,,,False
-Algeria,1.0,GK,Melvin Mastil,"February 19, 2000 (aged 26)",3.0,0.0,Stade Nyonnais,,,,,,,,,,,,,False
-Algeria,2.0,DF,Aïssa Mandi,"October 22, 1991 (aged 34)",120.0,9.0,Lille,,,,,,,,,,,,,False
+Algeria,1.0,GK,Melvin Mastil,"February 19, 2000 (aged 26)",2.0,0.0,Stade Nyonnais,,,,,,,,,,,,,False
+Algeria,2.0,DF,Aïssa Mandi,"October 22, 1991 (aged 34)",119.0,8.0,Lille,,,,,,,,,,,,,False
 Algeria,3.0,DF,Achref Abada,"June 15, 1999 (aged 26)",9.0,1.0,USM Alger,,,,,,,,,,,,,False
-Algeria,4.0,DF,Mohamed Amine Tougai,"January 22, 2000 (aged 26)",31.0,2.0,Espérance de Tunis,,,,,,,,,,,,,False
-Algeria,5.0,DF,Zineddine Belaïd,"March 20, 1999 (aged 27)",13.0,1.0,JS Kabylie,,,,,,,,,,,,,False
-Algeria,6.0,MF,Ramiz Zerrouki,"May 26, 1998 (aged 28)",54.0,3.0,Twente,,,,,,,,,,,,,False
-Algeria,7.0,FW,Riyad Mahrez,"February 21, 1991 (aged 35)",117.0,38.0,Al-Ahli,,,,,,,,,,,,,True
-Algeria,8.0,MF,Houssem Aouar,"June 30, 1998 (aged 27)",23.0,6.0,Al-Ittihad,,,,,,,,,,,,,False
-Algeria,9.0,FW,Amine Gouiri,"February 16, 2000 (aged 26)",24.0,12.0,Marseille,,,,,,,,,,,,,False
-Algeria,10.0,MF,Farès Chaïbi,"November 28, 2002 (aged 23)",32.0,3.0,Eintracht Frankfurt,,,,,,,,,,,,,False
-Algeria,11.0,FW,Anis Hadj Moussa,"February 11, 2002 (aged 24)",16.0,3.0,Feyenoord,,,,,,,,,,,,,False
-Algeria,12.0,FW,Nadhir Benbouali,"April 17, 2000 (aged 26)",5.0,1.0,Győri ETO,,,,,,,,,,,,,False
-Algeria,13.0,DF,Jaouen Hadjam,"March 26, 2003 (aged 23)",19.0,3.0,Young Boys,,,,,,,,,,,,,False
-Algeria,14.0,MF,Hicham Boudaoui,"September 23, 1999 (aged 26)",35.0,0.0,Nice,,,,,,,,,,,,,False
-Algeria,15.0,DF,Rayan Aït-Nouri,"June 6, 2001 (aged 25)",31.0,0.0,Manchester City,,,,,,,,,,,,,False
-Algeria,16.0,GK,Oussama Benbot,"October 11, 1994 (aged 31)",4.0,0.0,USM Alger,,,,,,,,,,,,,False
-Algeria,17.0,DF,Rafik Belghali,"June 7, 2002 (aged 24)",14.0,1.0,Hellas Verona,,,,,,,,,,,,,False
-Algeria,18.0,FW,Mohamed Amoura,"May 9, 2000 (aged 26)",48.0,19.0,VfL Wolfsburg,,,,,,,,,,,,,False
-Algeria,19.0,MF,Nabil Bentaleb,"November 24, 1994 (aged 31)",62.0,6.0,Lille,,,,,,,,,,,,,False
-Algeria,20.0,FW,Adil Boulbina,"May 2, 2003 (aged 23)",11.0,4.0,Al-Duhail,,,,,,,,,,,,,False
+Algeria,4.0,DF,Mohamed Amine Tougai,"January 22, 2000 (aged 26)",30.0,2.0,Espérance de Tunis,,,,,,,,,,,,,False
+Algeria,5.0,DF,Zineddine Belaïd,"March 20, 1999 (aged 27)",18.0,1.0,JS Kabylie,,,,,,,,,,,,,False
+Algeria,6.0,MF,Ramiz Zerrouki,"May 26, 1998 (aged 28)",53.0,3.0,Twente,,,,,,,,,,,,,False
+Algeria,7.0,FW,Riyad Mahrez,"February 21, 1991 (aged 35)",116.0,38.0,Al-Ahli,,,,,,,,,,,,,True
+Algeria,8.0,MF,Houssem Aouar,"June 30, 1998 (aged 27)",22.0,6.0,Al-Ittihad,,,,,,,,,,,,,False
+Algeria,9.0,FW,Amine Gouiri,"February 16, 2000 (aged 26)",23.0,10.0,Marseille,,,,,,,,,,,,,False
+Algeria,10.0,MF,Farès Chaïbi,"November 28, 2002 (aged 23)",31.0,3.0,Eintracht Frankfurt,,,,,,,,,,,,,False
+Algeria,11.0,FW,Anis Hadj Moussa,"February 11, 2002 (aged 24)",15.0,2.0,Feyenoord,,,,,,,,,,,,,False
+Algeria,12.0,FW,Nadhir Benbouali,"April 17, 2000 (aged 26)",4.0,1.0,Győri ETO,,,,,,,,,,,,,False
+Algeria,13.0,DF,Jaouen Hadjam,"March 26, 2003 (aged 23)",18.0,3.0,Young Boys,,,,,,,,,,,,,False
+Algeria,14.0,MF,Hicham Boudaoui,"September 23, 1999 (aged 26)",34.0,0.0,Nice,,,,,,,,,,,,,False
+Algeria,15.0,DF,Rayan Aït-Nouri,"June 6, 2001 (aged 25)",30.0,0.0,Manchester City,,,,,,,,,,,,,False
+Algeria,16.0,GK,Oussama Benbot,"October 11, 1994 (aged 31)",5.0,0.0,USM Alger,,,,,,,,,,,,,False
+Algeria,17.0,DF,Rafik Belghali,"June 7, 2002 (aged 24)",13.0,1.0,Hellas Verona,,,,,,,,,,,,,False
+Algeria,18.0,FW,Mohamed Amoura,"May 9, 2000 (aged 26)",47.0,19.0,VfL Wolfsburg,,,,,,,,,,,,,False
+Algeria,19.0,MF,Nabil Bentaleb,"November 24, 1994 (aged 31)",60.0,6.0,Lille,,,,,,,,,,,,,False
+Algeria,20.0,FW,Adil Boulbina,"May 2, 2003 (aged 23)",12.0,6.0,Al-Duhail,,,,,,,,,,,,,False
 Algeria,21.0,DF,Ramy Bensebaini,"April 16, 1995 (aged 31)",82.0,9.0,Borussia Dortmund,,,,,,,,,,,,,False
-Algeria,22.0,MF,Ibrahim Maza,"November 24, 2005 (aged 20)",18.0,2.0,Bayer Leverkusen,,,,,,,,,,,,,False
+Algeria,22.0,MF,Ibrahim Maza,"November 24, 2005 (aged 20)",17.0,2.0,Bayer Leverkusen,,,,,,,,,,,,,False
 Algeria,23.0,GK,Luca Zidane,"May 13, 1998 (aged 28)",7.0,0.0,Granada,,,,,,,,,,,,,False
 Algeria,24.0,MF,Yacine Titraoui,"July 26, 2003 (aged 22)",5.0,0.0,Charleroi,,,,,,,,,,,,,False
 Algeria,25.0,FW,Farès Ghedjemis,"September 6, 2002 (aged 23)",1.0,1.0,Frosinone,,,,,,,,,,,,,False
-Algeria,26.0,DF,Samir Chergui,"February 6, 1999 (aged 27)",6.0,0.0,Paris FC,,,,,,,,,,,,,False
+Algeria,26.0,DF,Samir Chergui,"February 6, 1999 (aged 27)",5.0,0.0,Paris FC,,,,,,,,,,,,,False
 Argentina,1.0,GK,Juan Musso,"May 6, 1994 (aged 32)",4.0,0.0,Atlético Madrid,,,,,,,,,,,,,False
 Argentina,2.0,DF,Marcos Senesi,"May 10, 1997 (aged 29)",3.0,0.0,Bournemouth,,,,,,,,,,,,,False
 Argentina,3.0,DF,Nicolás Tagliafico,"August 31, 1992 (aged 33)",76.0,1.0,Lyon,,,,,,,,,,,,,False

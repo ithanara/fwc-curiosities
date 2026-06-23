@@ -13,8 +13,7 @@ def get_soup(url: str) -> tuple[BeautifulSoup, str]:
     print(f"[debug] status HTTP: {resp.status_code} | tamanho da resposta: {len(resp.text)} chars")
     resp.raise_for_status()
 
-    # Tenta vários parsers em ordem; alguns (ex: lxml) podem falhar silenciosamente
-    # em documentos grandes/específicos e retornar uma árvore vazia.
+    # read
     for parser_name in ("html.parser", "lxml", "html5lib"):
         try:
             candidate = BeautifulSoup(resp.text, parser_name)
@@ -29,13 +28,11 @@ def get_soup(url: str) -> tuple[BeautifulSoup, str]:
         if n_tables > 0:
             return candidate, resp.text
 
-    # Se nenhum parser encontrou tabelas, retorna o último testado mesmo assim
-    # (vai cair no fallback de salvar debug_page.html mais à frente)
     return candidate, resp.text
 
 
 
-# Reconhece links para a página da seleção nacional, ex:
+# recognize links to each squad, like:
 # /wiki/Czech_Republic_national_football_team
 # /wiki/Canada_men%27s_national_soccer_team
 TEAM_LINK_RE = re.compile(r"_national_(football|soccer)_team", re.IGNORECASE)
@@ -48,10 +45,6 @@ def extract_squads(url: str = URL) -> pd.DataFrame:
     n_tables_in_content = len(content.find_all("table")) if content is not None else 0
 
     if content is None or n_tables_in_content == 0:
-        # A div mw-parser-output pode vir "vazia" dependendo do parser usado
-        # (acontece com html.parser em documentos com aninhamento meio quebrado).
-        # Nesse caso, usamos o documento inteiro como escopo — não precisamos
-        # do escopo restrito, só de achar as <table class="wikitable"> e os <p>.
         print(
             f"[debug] div.mw-parser-output encontrada mas com {n_tables_in_content} tabelas "
             f"— usando soup inteiro como escopo em vez dela"
@@ -78,7 +71,7 @@ def extract_squads(url: str = URL) -> pd.DataFrame:
     debug_tables_seen = 0
     debug_tables_skipped_no_team = 0
 
-    # Percorre h3 (cabeçalhos, se existirem) e elementos de texto/table na ordem do documento
+    # Read h3, tables...
     for element in content.find_all(["h2", "h3", "p", "table"]):
 
         if element.name in ("h2", "h3"):
@@ -90,9 +83,6 @@ def extract_squads(url: str = URL) -> pd.DataFrame:
                 debug_headings_found += 1
 
         elif element.name == "p":
-            # Esta página identifica a seleção por um link para a página
-            # "<Pais> national football/soccer team" dentro do parágrafo,
-            # não por um cabeçalho h3. Ex: "...The [Czech Republic](.../Czech_Republic_national_football_team) announced..."
             for link in element.find_all("a", href=True):
                 if TEAM_LINK_RE.search(link["href"]):
                     current_team = link.get_text(strip=True)
@@ -130,7 +120,6 @@ def extract_squads(url: str = URL) -> pd.DataFrame:
 
     final_df = pd.concat(all_frames, ignore_index=True)
 
-    # Pequena limpeza: remove parênteses "(captain)" para uma coluna separada, se quiser
     final_df["Captain"] = final_df["Player"].str.contains(r"\(captain\)", na=False)
     final_df["Player"] = (
         final_df["Player"].str.replace(r"\s*\(captain\)", "", regex=True).str.strip()
@@ -145,4 +134,4 @@ if __name__ == "__main__":
     print(df.head(20))
 
     df.to_csv("Extract/fifa_2026_squads.csv", index=False, encoding="utf-8-sig")
-    print("Arquivo salvo: fifa_2026_squads.csv")
+    print("Yay, we did it! file saved: fifa_2026_squads.csv")
