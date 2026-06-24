@@ -41,6 +41,12 @@ df.tail()
 df[['number','games','goals','age']] = df[['number','games','goals','age']].astype(int)
 
 df.dtypes
+
+#%%
+#Order dataframe
+df = df[['squad', 'number','position', 'player', 'date of birth', 'age', 'captain', 'games', 'goals', 'club']]
+
+df.head(50)
 #%%
 #Export to csv
 df.to_csv("Transform/fifa_2026_squads.csv", index=False, encoding="utf-8-sig")
